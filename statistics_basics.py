@@ -1,0 +1,12 @@
+import numpy as np
+arr=np.array([1,2,3,4,56])
+# min=np.min(arr)
+# max=np.max(arr)
+# print("-"*45)
+# print(f"Minimum value in the array is {min}")
+# print("-"*45)
+# print(f"Maximum value in the array is {max}")
+# print("-"*45)
+sum=np.sum(arr)
+arr_sum=np.cumsum(arr)
+print(arr_sum)
